@@ -5,6 +5,51 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* answer */
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  /* answer */
+  padding: 5px 16px;
+}
+
+.content {
+  /* answer */
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  /* answer */
+  color: #666;
+  text-decoration: none;
+}
+
+.header, .footer{
+  /* answer */
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  /* answer */
+  background: #eee;
+}
+
+ul {
+  /* answer */
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
 }
 
 img {
